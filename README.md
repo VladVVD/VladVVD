@@ -17,7 +17,7 @@ My background in low-level programming (C/C++, Assembly) and custom network stac
 
 Here are some of my core projects demonstrating my "Defense in Depth" and low-level engineering approach:
 
-*  [**Custom-Network-Stack-Core**](https://github.com/VlaVVD/Custom-Network-Stack-Core) 
+*  [**Custom-Network-Stack-Core**](https://github.com/VladVVD/Custom-Network-Stack-Core) 
   * *C++ | Raw Sockets | OSI L2/L3*
   * A custom userspace network stack implementing raw Ethernet, IPv4, and ARP parsing/crafting.
   
