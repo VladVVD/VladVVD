@@ -1,6 +1,6 @@
 ### Cybersecurity Enthusiast
 
-I am a cybersecurity researcher focusing on **Digital Forensics, Incident Response (DFIR), and Blue Team operations**. 
+I am focusing on **Digital Forensics, Incident Response (DFIR), and Blue Team operations**. 
 My background in low-level programming (C/C++, Assembly) and custom network stack development allows me to look past high-level alerts and analyze threats directly at the memory, packet, and architecture levels.
 
 ---
