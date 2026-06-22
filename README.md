@@ -20,6 +20,10 @@ Here are some of my core projects demonstrating my "Defense in Depth" and low-le
 *  [**Custom-Network-Stack-Core**](https://github.com/VladVVD/Custom-Network-Stack-Core) 
   * *C++ | Raw Sockets | OSI L2/L3*
   * A custom userspace network stack implementing raw Ethernet, IPv4, and ARP parsing/crafting.
+
+*  [**RISCV-TEA-Cryptography**](https://github.com/VladVVD/RISCV-TEA-Cryptography)
+  * *RISC-V Assembly | Applied Cryptography | C*
+  * Manual translation of the Tiny Encryption Algorithm (TEA) into RISC-V Assembly, focusing on cross-architecture arithmetic (32-bit math on RV64).
   
 *  [**RISCV-Assembly-Quicksort**](https://github.com/VladVVD/RISCV-Assembly-Quicksort)
   * *RISC-V Assembly | Reverse Engineering | C*
