@@ -1,7 +1,11 @@
-### Cybersecurity Enthusiast
+### Hardware Security & Low-Level Systems Engineer
 
-I am focusing on **Digital Forensics, Incident Response (DFIR), and Blue Team operations**. 
-My background in low-level programming (C/C++, Assembly) and custom network stack development allows me to look past high-level alerts and analyze threats directly at the memory, packet, and architecture levels.
+![Focus](https://img.shields.io/badge/Focus-Hardware_Security_%26_Crypto-blue?style=flat-square)
+![RTL](https://img.shields.io/badge/Domain-Digital_Circuit_Design_%7C_RTL-red?style=flat-square)
+![TU Graz](https://img.shields.io/badge/Education-TU_Graz-00549F?style=flat-square)
+![Status](https://img.shields.io/badge/ISC2-CC_Candidate-success?style=flat-square)
+
+I am a Computer Science student at TU Graz focusing on the intersection of **Hardware Security, Applied Cryptography, and Digital Circuit Design**.
 
 ---
 
@@ -13,14 +17,24 @@ My background in low-level programming (C/C++, Assembly) and custom network stac
 
 ---
 
-### Featured Security & Systems Research
+### Featured Projects
 
-Here are some of my core projects demonstrating my "Defense in Depth" and low-level engineering approach:
+### Digital Circuit Design & Cryptographic Accelerators
+* [**Hardware AES-128 Accelerator on Zynq-7000 (PYNQ-Z2)**](https://github.com/VladVVD/AES-RTL-Module)
+  * *SystemVerilog | Xilinx Vivado/Vitis | Bare-Metal C | AXI4-Lite*
+  * Designed and synthesized a hardware-optimized AES-128 cryptographic engine on an FPGA, integrated with an ARM Cortex-A9 processor via an AXI4 SmartConnect bus.
+  * Implemented cycle-accurate hardware benchmarking via on-chip AXI Timers, mathematically proving the performance bottleneck between theoretical logic throughput (**1.16 Gbps**) and SoC memory-bus I/O overhead (**47.15 Mbps**).
 
+* [**Custom-RTL-Hardware-Modules**](https://github.com/VladVVD/Custom-RTL-Hardware-Modules)
+  * *SystemVerilog | Hardware Security | FSM Design*
+  * Custom Register-Transfer Level (RTL) implementations of a cryptographic primitive (Binary GCD) and Square Root calculator, exploring hardware execution and side-channel vulnerabilities.
+
+### Systems Programming & Network Protocols
 *  [**Custom-Network-Stack-Core**](https://github.com/VladVVD/Custom-Network-Stack-Core) 
   * *C++ | Raw Sockets | OSI L2/L3*
   * A custom userspace network stack implementing raw Ethernet, IPv4, and ARP parsing/crafting.
-
+  
+### Low-Level Architecture & Applied Cryptography
 *  [**RISCV-TEA-Cryptography**](https://github.com/VladVVD/RISCV-TEA-Cryptography)
   * *RISC-V Assembly | Applied Cryptography | C*
   * Manual translation of the Tiny Encryption Algorithm (TEA) into RISC-V Assembly, focusing on cross-architecture arithmetic (32-bit math on RV64).
@@ -28,10 +42,6 @@ Here are some of my core projects demonstrating my "Defense in Depth" and low-le
 *  [**RISCV-Assembly-Quicksort**](https://github.com/VladVVD/RISCV-Assembly-Quicksort)
   * *RISC-V Assembly | Reverse Engineering | C*
   * Manual translation of a sorting algorithm from C to RISC-V Assembly.
-  
-*  [**Custom-RTL-Hardware-Modules**](https://github.com/VladVVD/Custom-RTL-Hardware-Modules)
-  * *SystemVerilog | Hardware Security | FSM Design*
-  * Custom Register-Transfer Level (RTL) implementations of a cryptographic primitive (Binary GCD) and Square Root calculator, exploring hardware execution and side-channel vulnerabilities.
 
 *  [**Crypto-Security-Tools**](https://github.com/VladVVD/Crypto-Security-Tools)
   * *Python | Cryptography | Malware Analysis*
@@ -39,6 +49,10 @@ Here are some of my core projects demonstrating my "Defense in Depth" and low-le
 
 ---
 
-###  Core Tech Stack & Skills
-* **Languages:** C/C++, Python, RISC-V Assembly, SystemVerilog, SQL
-* **Cybersecurity Domains:** Malware Analysis, Reverse Engineering, Network Security, Applied Cryptography
+| Domain | Technologies & Skills |
+| :--- | :--- |
+| **Digital Circuit Design & FPGA** | SystemVerilog, RTL Synthesis, FSM Design, Xilinx Vivado, Vitis IDE, AXI4/SoC Interconnects |
+| **Low-Level & Architecture** | C, C++, RISC-V Assembly, ARM Bare-Metal, Memory Architecture, Reverse Engineering |
+| **Applied Cryptography** | Symmetric Cryptography (AES, TEA), Cryptographic Primitives, Algorithm Optimization |
+| **Systems & Network Security** | Raw Socket Programming, OSI L2/L3 Packet Crafting, Linux CLI, Bash, Python |
+
